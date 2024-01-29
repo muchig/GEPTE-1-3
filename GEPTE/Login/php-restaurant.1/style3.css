@@ -1,0 +1,360 @@
+*{
+  margin:0;
+  padding:0;
+  /* overflow: auto; */
+}
+
+body{
+  width: 99.5%;
+  height: 60% ;
+  /* display: flex; */
+  align-items: center;
+flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  line-height: 50px;
+  font-family: sans-serif;
+  background: #132233;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background: url('../Login DB/images/black.jpg')no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+/* border: yellow 2px solid; */
+
+}
+
+
+
+
+
+
+
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding-left: 2vw;
+  overflow: hidden;
+  background-color: #181818;
+  position: fixed;
+  font-family: inherit;
+  font-weight: bold;
+  top: 0;
+  width: 110%;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ffeba7;
+  color: #111;
+}
+
+
+/* ::-webkit-scrollbar {
+  width: 0;
+  background: transparent; 
+} */
+/* Optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+  background: #FF0000;
+} */
+
+
+      .loginpos{
+        justify-content: right;
+        /* border: #fff 1px solid; */
+        text-align: right;
+
+      }
+
+      input {
+        background-image: none;
+        border: 0;
+        color: inherit;
+        /* font: inherit; */
+        margin-top: 20px;
+        outline: 0;
+        padding: 10px;
+        transition: background-color 0.3s;
+        /* border: 1px solid red;  */
+       
+      }
+      
+
+
+      input[type="submit"] {
+        cursor: pointer;
+        width: 100px;
+        font-weight: bolder;
+        border-radius: 10px;
+      }
+
+      input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: #f58e19;
+        color: white;
+        
+      }
+
+
+
+
+      input[type="submit"]{  
+        border-radius: 4px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        -webkit-transition : all 200ms linear;
+        transition: all 200ms linear;
+        padding: 10px 10px;
+        letter-spacing: 1px;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: block;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        text-align: center;
+        border: none;
+        background-color: #ffeba7;
+        color: #1a1a1a;
+        box-shadow: 0 2px 5px 0 rgba(255,235,167,.2);
+      }
+      input[type="submit"]:active,
+      input[type="submit"]:focus{  
+        background-color: #1a1a1a;
+        color: #ffeba7;
+        box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+      }
+      input[type="submit"]:hover{  
+        background-color: #1a1a1a;
+        color: #ffeba7;
+        box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+      }
+      
+   
+      .profile{
+        /* border: 1px solid red; */
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        border-radius: 900px;
+        border: whitesmoke solid 7px;
+        
+    }
+      .profile #img{
+        /* border: 1px solid red; */
+        object-fit: cover;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .welcome{
+        /* border: 1px solid red; */
+        width: 80%;
+        margin-top: 20px;
+        
+    }
+
+    .welcome h2{
+      text-align: center;
+      color: white;
+    
+    }
+
+    .tabe{
+      width: 70%;
+      height: 40em;
+      overflow: auto;
+      padding-right: 10px;
+      /* border: 1px black solid; */
+    }
+
+    table{
+      font-family: inherit;
+      /* font-weight: 600; */
+      border-collapse: collapse;
+      font-size: small;
+      border-spacing: 1px;
+      width: 100%;
+      /* border: black 10px solid; */
+      
+    }
+
+
+    table td, table th{
+      /* border-bottom: 2px black solid; */
+      padding-left: 8px;
+      height: 0.3em;
+      text-align: center;
+      border: none;
+      
+      border-bottom: 15px transparent solid;
+    }
+
+    /* table tr:nth-child(even){background-color: #dadada;} */
+    table tr{background-color: #ffffff;}
+    
+    table tr:hover {background-color: #c2c2c2;}
+    table th{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      background-color: #ffeba7;
+      color: #1a1a1a;
+      
+    }
+
+
+    .info{
+      /* border: black 1px solid; */
+      margin-left: 5px;
+      text-align: right;
+      display: inline;
+      color: black;
+    }
+
+   
+    .coninfo{
+      /* border: black 1px solid; */
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .infolabel{
+      display: flex;
+      justify-content:last baseline;
+      margin-left: 50px;
+      color: #868484;
+    }
+
+    .infopic{
+      border: 5px;
+    }
+
+    input.edit{
+      background-color: #b6b6b6;
+      /* margin: 25px; */
+      width: 150px;
+      margin:auto;
+    }
+
+
+
+    .container{
+      min-height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+
+.pagination{
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination li{
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li :hover{
+  color: white;
+}
+
+.pagination li a{
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 45px;
+  /* border-radius: 0px; */
+}
+
+.previous-page, .next-page{
+  background: #ffeba7;
+  width: 80px;
+  /* border-radius: 45px; */
+  cursor: pointer;
+  transition: 0.3s ease;
+ 
+}
+
+.previous-page:hover{
+  transform: translateX(-5px);
+  
+}
+
+.next-page:hover{
+  transform: translateX(5px);
+}
+
+.current-page, .dots{
+  background: #ccc;
+  width: 45px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
+
+.active{
+  background: #ffeba7;
+}
+
+.disable{
+  background: #ccc;
+}
+    
+
+.pagination li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+
+
+.card input{
+
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  
+}
+
+  
